@@ -141,7 +141,7 @@
     function addWinner(){const tr=document.createElement("tr");const name=names[Math.floor(Math.random()*names.length)];const prize=prizes[Math.floor(Math.random()*prizes.length)];tr.innerHTML=`<td>${today()}</td><td>${name}</td><td>${prize}</td>`;tbody.insertBefore(tr,tbody.firstChild);while(tbody.children.length>5)tbody.removeChild(tbody.lastChild)}
     setInterval(addWinner,3800);
 
-    const GOOGLE_SHEET_URL="https://script.google.com/macros/s/AKfycbySxkDihm5gRgtDNsfVwUml-bvU547GPTHSrAJWyByE17PgiAwK4DTRrmAxtVcbtEhV/exec";
+    const GOOGLE_SHEET_URL="https://script.google.com/macros/s/AKfycbxqyqkagC869dmUFkxrnbChCMl90z1ZDIBGg1cefPGIRllooGo6K_9Hcr7N3Wla74ci/exec";
     const KAKAO_CHANNEL_URL="https://vvd.im/참여상담";
     let savedName="";
     let savedPhone="";
